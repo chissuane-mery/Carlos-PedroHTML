@@ -1,0 +1,6 @@
+.caixa {
+    border: 2px solid #000; / Borda de 2px sólida e preta /
+    margin: 20px;           / Margem externa de 20px /
+    padding: 15px;          / Espaçamento interno de 15px /
+    background-color: #f9f9f9; / Cor de fundo clara para destacar a caixa */
+    width: 200px;           /* Largura fixa da caixa /

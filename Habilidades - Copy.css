@@ -1,0 +1,91 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "outfit", sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: #c2c2c2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills{
+    width: 500px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.136);
+
+}
+.skills ul{
+    list-style: none;
+}
+.skills ul li{
+    margin: 20px 0;
+
+
+}
+.skills .barras{
+    background-color: #ccc;
+    display: block;
+    height: 20px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: .5s ease-in-outs;
+
+}
+.barras > span{
+height: 20px;
+background: linear-gradient(to right, #fc4781,#ff0054);
+position: absolute;
+
+}
+.html{
+    width: 80%;
+    animation: html 3s;
+}
+
+.css{
+    width: 40%;
+    animation: css 3s;
+}
+
+.Javscript{
+    width: 20%;
+    animation: Javscript 3s;
+}
+
+@keyframes  html{
+0%(
+    width: 0%;
+)
+100%(
+    width: 80%;
+)
+}
+
+@keyframes  css{
+    0%(
+        width: 0%;
+    )
+    100%(
+        width: 40%;
+    )
+    }
+
+    @keyframes  Javascript{
+        0%(
+            width: 0%;
+        )
+        100%(
+            width: 20ss%;
+        )
+        }
+
+
+        

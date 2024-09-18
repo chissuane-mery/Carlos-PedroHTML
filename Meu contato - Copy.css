@@ -1,0 +1,141 @@
+https://fonts.google.com/share?selection.family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900|SUSE:wght@100..800
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: arial, sans-serif;
+}
+body{
+  overflow: hidden; 
+  background-image: url(Liyurca.jpg);
+background-size: cover;
+background-position: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+.Cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.Cabeçalho-link a{
+    color: #f6e9e9;
+    font-size: 18px;
+    text-decoration: none;
+    border: none;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.Cabeçalho-link ul a:hover{
+    background-color:#0cdb39;
+    color: #fff;
+    box-shadow: 0 0 8px #0cdb39;
+}
+
+.Cabeçalho-link ul{
+    list-style-type: none;
+}
+
+.Cabeçalho-link ul li{
+    display: inline;
+    margin: 0 30px;
+}
+
+.Cabeçalho-link a :hover{
+    color: #0cdb39;
+    transition: 0.3s all;
+}
+
+.Cabeçalho-link a button:hover{
+    color: #fff;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid #28d606;
+    color: #1de61d;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size:13px ;
+}
+button{
+    color: #2ece2e;
+    background: transparent;
+    border: solid 1px #2ece2e;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #2ece2e;
+    color: #fff;
+    transition: 0.5s;
+}
+.container-text{
+    padding: 150px 0 0 130px;
+}
+.text h3{
+    color:#fff ;
+    font-size:50px ;
+}
+.text h1{
+    color: #fff;
+    margin-top:10px;
+}
+section.formulario{
+    padding: 80px 4%;
+}
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+form input, form textarea{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.966);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+form textarea{
+    resize: none;
+    max-width: 200px;
+}
+form .btn-enviar{
+    margin-top: 20px;
+    text-align: center;
+}
+form .btn-enviar input{
+    width: 120px;
+background-color: #15f048;
+color: #000;
+font-weight: 700;
+cursor: p
+ointer;
+}
+
+
+
